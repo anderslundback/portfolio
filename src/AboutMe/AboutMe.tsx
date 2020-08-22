@@ -34,6 +34,7 @@ export default function AboutMe() {
                 </label>{' '}
                 along the way.
             </p>
+
             <p>
                 In my spare time I enjoy playing chess, travelling and teaching people how to code.
                 I often help people break into the CS industry at the Codecademy London meetup which has now grown to over 8000 members!
