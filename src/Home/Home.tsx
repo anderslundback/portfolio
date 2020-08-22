@@ -4,10 +4,10 @@ import Code from '../shared/Code/Code';
 export default function Home() {
     const getCode = () => `describe('devDetails function', () => {
 
-    it('fetches some details about R. Mallols,', () => {
+    it('fetches some details about Anders Lundback,', () => {
 
         // given
-        const devDetails = { id: 'rmallols' };
+        const devDetails = { id: 'anderslundback' };
 
         // when
         const { 

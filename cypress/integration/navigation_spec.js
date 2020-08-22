@@ -33,12 +33,7 @@ context('Navigation', () => {
         text: 'Experience',
         path: '/experience',
         getSelector: () => get('ExperienceCompany').eq(0),
-        contains: 'Kodiri'
-    }, {
-        text: 'Community',
-        path: '/community',
-        getSelector: () => get('Community-text'),
-        contains: 'I love to getting involved with coding communities!'
+        contains: 'Post Office'
     }];
 
     const getLink = index => get('HeaderMenu').find('a').eq(index);
@@ -85,7 +80,7 @@ context('Navigation', () => {
             getLink(5).contains('Contact me');
             getLink(5)
                 .should('have.attr', 'href')
-                .and('include', 'hi@mallols.dev');
+                .and('include', 'hi@Lundback.dev');
         });
     });
 

@@ -1,11 +1,10 @@
-@import './ExperienceCompany/ExperienceCompanyKodiri/ExperienceCompanyKodiriLogo/ExperienceCompanyKodiriLogo.scss';
 
 .experience-component {
 
     .view-root {
         
         &:after {
-            background-image: url('./Experience.jpg');
+            background-image: url('./Experience.jpeg');
         }
     }
 

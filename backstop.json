@@ -22,29 +22,23 @@
       "misMatchThreshold": 1.0
     },
     {
-        "label": "About me",
-        "url": "http://localhost:3006/about-me",
-        "delay": 1500,
-        "misMatchThreshold": 1.0
+      "label": "About me",
+      "url": "http://localhost:3006/about-me",
+      "delay": 1500,
+      "misMatchThreshold": 1.0
     },
     {
-        "label": "Skills",
-        "url": "http://localhost:3006/skills",
-        "delay": 1500,
-        "misMatchThreshold": 1.0
+      "label": "Skills",
+      "url": "http://localhost:3006/skills",
+      "delay": 1500,
+      "misMatchThreshold": 1.0
     },
     {
-        "label": "Experience",
-        "url": "http://localhost:3006/experience",
-        "delay": 1500,
-        "misMatchThreshold": 1.0
-    },
-    {
-        "label": "Community",
-        "url": "http://localhost:3006/community",
-        "delay": 1500,
-        "misMatchThreshold": 1.0
-    }        
+      "label": "Experience",
+      "url": "http://localhost:3006/experience",
+      "delay": 1500,
+      "misMatchThreshold": 1.0
+    }
   ],
   "paths": {
     "bitmaps_reference": "backstop_data/bitmaps_reference",
@@ -54,13 +48,18 @@
     "ci_report": "test-results"
   },
   "ci": {
-    "format" : "junit" ,
+    "format": "junit",
     "testReportFileName": "test-visual"
   },
-  "report": ["browser", "CI"],
+  "report": [
+    "browser",
+    "CI"
+  ],
   "engine": "puppeteer",
   "engineOptions": {
-    "args": ["--no-sandbox"]
+    "args": [
+      "--no-sandbox"
+    ]
   },
   "asyncCaptureLimit": 5,
   "asyncCompareLimit": 50,
