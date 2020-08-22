@@ -16,8 +16,8 @@ export default function Home() {
 
         // then
         expect(loves).toBe('React');
-        expect(learning).toEqual(['Deno', 'Vue3']);
-        expect(favAnimal).toBe('Crocosaurus');
+        expect(learning).toEqual(['AWS', 'Go']);
+        expect(favAnimal).toBe('Bernese Mountain Dog');
     });
 });`;
     return (
