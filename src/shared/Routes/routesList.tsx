@@ -2,7 +2,6 @@ import Home from '../../Home/Home';
 import AboutMe from '../../AboutMe/AboutMe';
 import Skills from '../../Skills/Skills';
 import Experience from '../../Experience/Experience';
-import Community from '../../Community/Community';
 
 const routesList: Route[] = [
     { id: 'home', to: '/', text: 'Home', component: Home, isExternal: false },
@@ -28,15 +27,8 @@ const routesList: Route[] = [
         isExternal: false,
     },
     {
-        id: 'community',
-        to: '/community',
-        text: 'Community',
-        component: Community,
-        isExternal: false,
-    },
-    {
         id: 'contact-me',
-        to: 'mailto:hi@mallols.dev',
+        to: 'mailto:lundback.anders@gmail.com',
         text: 'Contact me',
         isExternal: true,
     },

@@ -20,6 +20,8 @@
         &.is-meetup { background-image: url('./logos/meetup.svg'); }
         &.is-youtube { background-image: url('./logos/youtube.svg'); }
         &.is-github { background-image: url('./logos/github.svg'); }
+        &.is-linkedin { background-image: url('./logos/linkedin.svg'); }
+
     }
 
     @media (min-width: $mobile-width) {

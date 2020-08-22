@@ -19,10 +19,8 @@ function getChartData() {
             'CSS3',
             'Less/Sass',
             'React',
-            'Vue',
             'TypeScript',
             'Node',
-            'MongoDB',
             'Testing',
             'CI/CD',
             'Cloud',
@@ -31,7 +29,7 @@ function getChartData() {
         ],
         datasets: [
             {
-                data: [90, 80, 85, 85, 85, 55, 60, 70, 75, 80, 75, 80, 85, 80],
+                data: [80, 80, 80, 65, 70, 50, 50, 60, 55, 60, 65, 80],
                 borderColor: baseColor,
                 backgroundColor: getAlphaColor(baseColor),
                 borderWidth: 5,

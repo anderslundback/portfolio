@@ -1,11 +1,8 @@
-# Ricardo Mallols portfolio
+# Anders Lundback's portfolio
 
-![Home page](./readme-pictures/home.png)
+Hi! Welcome to my portfolio. Here you can read about my experience as a developer and how to get in touch with me.
 
-Hi! I recently decided to upgrade my portfolio, and so I wanted to share it with the community
-in case anybody is interested on using it as a template.
-
-**Live version**: [https://mallols.dev](https://mallols.dev)
+**Live version**: [https://anderslundback.com](https://anderslundback.com)
 
 ## Stack
 
@@ -31,20 +28,6 @@ Even though the test coverage isn't any impressive at all, at least the project 
 * End to End testing with [Cypress](https://www.cypress.io/) (`npm run test:e2e:local`).
 * Visual Regression Testing with [BackStopJS](https://github.com/garris/BackstopJS) (`npm run test:visual:test`).
 
-![Visual Regression testing](./readme-pictures/visual-testing.png)
-
-## CI
-
-The project integrates with [CircleCI](https://circleci.com/) to ensuring the tests run smoothly before deploying the changes to [Vercel](https://vercel.com/).
-
-The workflow runs as follow:
-
-1. Run linting, Testing and TypeScript checks first, trying to parallelise some of the steps for performance reasons.
-2. If everything is OK, then deploy the changes to a UAT environment ([https://portfolio.rmallols.now.sh/](https://portfolio.rmallols.now.sh/)).
-3. If the changes apply to the master branch, request manual acceptance.
-4. Once the changes are approved, the version is dumped and they are deployed to the PRD environment ([https://mallols.dev](https://mallols.dev)).
-
-![CI workflow](./readme-pictures/ci-workflow.png)
 
 ## Known issues
 
@@ -53,7 +36,7 @@ The workflow runs as follow:
 
 ## Questions
 
-Feel free to drop me a message at [hi@mallols.dev](mailto:hi@mallols.dev)
+Feel free to drop me a message at [lundback.anders@gmail.com](mailto:lundback.anders@gmail.com)
 
 ## License
 

@@ -9,8 +9,7 @@ describe('Experience component', () => {
         // given
         const { getAllByTestId } = render(<Experience />);
         const companies = [
-            'Kodiri', 'HSBC', 'Sky TV', 'Flowable AG', 'Mimacom AG',
-            'Grupo Palluc', 'Grupo Ever Group', 'VTT'
+            'Post Office', 'HealthUnlocked', 'SEGA', 'Dreamhack', 'Manpower', 'ABB Robotics'
         ];
 
         // when
@@ -21,7 +20,7 @@ describe('Experience component', () => {
 
         // and
         titleElements.forEach((titleElement, index) => {
-            expect(titleElement.textContent).toBe(companies[index]);            
-        });        
+            expect(titleElement.textContent).toBe(companies[index]);
+        });
     });
 });

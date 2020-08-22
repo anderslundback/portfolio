@@ -11,26 +11,10 @@ export default function SkillsText() {
                     I love JavaScript!
                 </label>
                 <br />
-                I've been using it commercially for almost two decades; not just
-                in frontend and backend, but also in some exotic environments
-                like PDF readers and{' '}
-                <a
-                    href="https://www.youtube.com/watch?v=TPNOrSAb8Wk&t=1340s"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    robots
-                </a>
-                .
+                I've been using it commercially for four years. This includes back end development using node.js and front end libraries such as <label className="is-color-green">React</label> and <label className="is-color-green">React Native.</label>
             </p>
             <p>
-                JavaScript friends are friends of mine too. Through my career,
-                I've worked with many JS libraries, plugins and frameworks,
-                including YUI, jQuery and Angular (I was one of its first devs
-                globally!). I specialised in{' '}
-                <label className="is-color-green">React</label>&nbsp; an I'm now
-                learning <label className="is-color-green">Deno</label>&nbsp;
-                and <label className="is-color-green">Vue3</label>.
+                I have a background in the video games industry with a CS degree focused on game development. I have also travelled around Europe organising competetions in video games. These have been on a large scale scale drawing tens and thousands of visitors and up to 200k watching online.
             </p>
             <p>
                 I really enjoy playing with{' '}
@@ -46,14 +30,7 @@ export default function SkillsText() {
             </p>
             <p>
                 And, of course, the{' '}
-                <label className="is-color-yellow">cloud</label>!&nbsp; I've
-                worked with different platforms including AWS (my favourite!),
-                Google Cloud, Heroku, Now/Vercel, Github Pages, etc.
-            </p>
-            <p>
-                I'm passionate about building{' '}
-                <label className="is-color-yellow">hybrid apps</label> running
-                natively on mobile and desktop, using a single core and APIs.
+                <label className="is-color-yellow">cloud</label>!&nbsp; I've primarily worked with AWS, currently persuing a certification.
             </p>
         </div>
     );
