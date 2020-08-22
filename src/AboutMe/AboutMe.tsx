@@ -6,7 +6,7 @@ export default function AboutMe() {
             <p>
                 I'm a{' '}
                 <label className="is-color-pink">
-                    Software Engineer with 4 years of programming experience.
+                    Software Engineer with 4 years of commercial programming experience, currently based in London.
                 </label>
                 &nbsp; I’m a highly proficient Javascript / React / React Native
                 developer, interested in standards, efficiency, automated
@@ -33,6 +33,10 @@ export default function AboutMe() {
                     improving my skills and teaching others
                 </label>{' '}
                 along the way.
+            </p>
+            <p>
+                In my spare time I enjoy playing chess, travelling and teaching people how to code.
+                I often help people break into the CS industry at the Codecademy London meetup which has now grown to over 8000 members!
             </p>
         </div>
     );
