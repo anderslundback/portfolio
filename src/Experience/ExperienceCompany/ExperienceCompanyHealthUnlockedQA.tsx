@@ -25,11 +25,16 @@ export default function ExperienceCompanyHealthUnlockedQA() {
                         , the worlds largest social network for health.
                     </p>
                     <p>
-                        Initially covering for the QA lead being responsible for quality assurance and releasing to production using git and AWS.
-                        Gradually transitioning to a full time developer.
+                        Initially covering for the QA lead being responsible for
+                        quality assurance and releasing to production using git
+                        and AWS. Gradually transitioning to a full time
+                        developer.
                     </p>
                     <p>
-                        Manual and automated testing of new functionality and fixes for both frontend and backend. QA and support of rapidly expanding electronic Holistic Needs Assessment to the majority of trusts in the UK.
+                        Manual and automated testing of new functionality and
+                        fixes for both frontend and backend. QA and support of
+                        rapidly expanding electronic Holistic Needs Assessment
+                        to the majority of trusts in the UK.
                     </p>
                 </>
             }

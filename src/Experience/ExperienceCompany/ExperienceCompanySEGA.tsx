@@ -23,11 +23,15 @@ export default function ExperienceCompanySEGA() {
                         >
                             SEGA
                         </a>
-                        , one of the leading interactive entertainment companies in the world, with it's European HQ based in London
+                        , one of the leading interactive entertainment companies
+                        in the world, with it's European HQ based in London
                     </p>
                     <p>
-                        Quality Assurance and localisation responsible for the Swedish language in the market leading video game Football Manager.
-                        Bug tracking and reporting, regression, translation with a multilingual team of testers.
+                        Quality Assurance and localisation responsible for the
+                        Swedish language in the market leading video game
+                        Football Manager. Bug tracking and reporting,
+                        regression, translation with a multilingual team of
+                        testers.
                     </p>
                 </>
             }

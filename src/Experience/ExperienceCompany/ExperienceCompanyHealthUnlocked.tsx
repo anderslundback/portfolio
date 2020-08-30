@@ -25,11 +25,17 @@ export default function ExperienceCompanyHealthUnlocked() {
                         , the worlds largest social network for health.
                     </p>
                     <p>
-                        Development of the largest social network for health and the electronic Holistic Needs Assessment used in hospitals throughout the UK.
-                        Part of an agile development team using cutting edge technology to power a fleet of microservices hosted in the cloud on Amazon Web Services.
+                        Development of the largest social network for health and
+                        the electronic Holistic Needs Assessment used in
+                        hospitals throughout the UK. Part of an agile
+                        development team using cutting edge technology to power
+                        a fleet of microservices hosted in the cloud on Amazon
+                        Web Services.
                     </p>
                     <p>
-                        Primarily javascript based front-end development. Autonomous workflow powered by terraform releasing multiple times a day to production.
+                        Primarily javascript based front-end development.
+                        Autonomous workflow powered by terraform releasing
+                        multiple times a day to production.
                     </p>
                 </>
             }
