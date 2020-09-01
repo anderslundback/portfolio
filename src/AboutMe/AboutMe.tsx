@@ -6,42 +6,35 @@ export default function AboutMe() {
             <p>
                 I'm a{' '}
                 <label className="is-color-pink">
-                    Software Engineer with 4 years of commercial programming
-                    experience, currently based in London.
+                    Software Engineer with 4 years of commercial programming experience,
                 </label>
-                &nbsp; I’m a highly proficient Javascript / React / React Native
-                developer, interested in standards, efficiency, automated
-                testing and UI/UX.
+                &nbsp;currently based in London. I’m a highly proficient Javascript / React / React Native developer, interested in standards, efficiency, automated testing and UI/UX.
             </p>
             <p>
                 <label className="is-color-yellow">
-                    I’m a very organized, responsible and committed person.
+                    An enthusiastic self-starter, I view myself as a highly  organised, responsible and committed worker.
                 </label>
-                &nbsp; I consider communication, respect and teamwork as the
-                keys to both personal and professional success.
+                &nbsp;In both my professional and personal life, I value  intelligent communication, mutual respect and teamwork as the key markers of success.
             </p>
             <p>
-                Technology enthusiast,&nbsp;
+                A keen technology enthusiast,&nbsp;
                 <label className="is-color-yellow">
-                    I aim to face new and motivating challenges
+                    I welcome new and challenging opportunities working as part of an Agile team.
                 </label>
-                &nbsp; working as part of an Agile team, contributing with my
-                knowledge and continuously learning from my environment.
+                &nbsp;I enjoy contributing  my working knowledge to projects and continuously seek to learn more as I progress my career.
             </p>
             <p>
-                As a developer I've worked both in large coorporations and
-                startups. I’m focused on&nbsp;
+                As a developer, I've worked for both large corporations as well as smaller startups.
+                I’m dedicated to&nbsp;
                 <label className="is-color-yellow">
-                    improving my skills and teaching others
+                    constantly  improving and lending my skills to teach others
                 </label>{' '}
-                along the way.
+                along the way wherever possible.
             </p>
 
             <p>
-                In my spare time I enjoy playing chess, travelling and teaching
-                people how to code. I often help people break into the CS
-                industry at the Codecademy London meetup which has now grown to
-                over 8000 members!
+                In my spare time, I enjoy playing chess, travelling and teaching people how to code. I often help new people break into the CS industry at the Codecademy London meetup, which has now grown to over 8,000 members.
+
             </p>
         </div>
     );
