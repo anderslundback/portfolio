@@ -1,13 +1,13 @@
 import React from 'react';
 import ExperienceCompany from './ExperienceCompany';
-import everGroupLogo from './logos/postoffice.png';
+import PostOfficeLogo from './logos/postoffice.png';
 
 export default function ExperienceCompanyPostOffice() {
     const company = 'Post Office';
     return (
         <ExperienceCompany
             company={company}
-            logo={<img src={everGroupLogo} alt={`${company} logo`} />}
+            logo={<img src={PostOfficeLogo} alt={`${company} logo`} />}
             position="Full stack mobile developer"
             period="Mar 2018 - Present"
             stack="React Native, Javascript, HTML, CSS, Outsystems."

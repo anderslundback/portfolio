@@ -1,13 +1,13 @@
 import React from 'react';
 import ExperienceCompany from './ExperienceCompany';
-import flowableLogo from './logos/sega.jpeg';
+import SEGALogo from './logos/sega.jpeg';
 
 export default function ExperienceCompanySEGA() {
     const company = 'SEGA';
     return (
         <ExperienceCompany
             company={company}
-            logo={<img src={flowableLogo} alt={`${company} logo`} />}
+            logo={<img src={SEGALogo} alt={`${company} logo`} />}
             position="Localisation Quality Tester"
             period="Jan 2016 - Apr 2016"
             stack="Bug tracking & reporting, regression, translation

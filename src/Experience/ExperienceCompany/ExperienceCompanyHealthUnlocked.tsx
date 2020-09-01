@@ -1,13 +1,13 @@
 import React from 'react';
 import ExperienceCompany from './ExperienceCompany';
-import flowableLogo from './logos/healthunlocked.jpeg';
+import HealthUnlockedLogo from './logos/healthunlocked.jpeg';
 
 export default function ExperienceCompanyHealthUnlocked() {
     const company = 'HealthUnlocked';
     return (
         <ExperienceCompany
             company={company}
-            logo={<img src={flowableLogo} alt={`${company} logo`} />}
+            logo={<img src={HealthUnlockedLogo} alt={`${company} logo`} />}
             position="Software developer"
             period="May 2017 - Feb 2018"
             stack="ReactJS, React Native, Redux, HTML5, CSS3, JS ES6, AWS S3, CloudWatch, EC2, ECS, Elastic Search."
