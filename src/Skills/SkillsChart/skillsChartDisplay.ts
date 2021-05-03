@@ -29,7 +29,7 @@ function getChartData() {
         ],
         datasets: [
             {
-                data: [80, 80, 80, 65, 70, 50, 50, 60, 55, 60, 65, 80],
+                data: [80, 80, 80, 65, 75, 50, 50, 60, 55, 65, 70, 80],
                 borderColor: baseColor,
                 backgroundColor: getAlphaColor(baseColor),
                 borderWidth: 5,

@@ -9,7 +9,7 @@ export default function ExperienceCompanyPostOffice() {
             company={company}
             logo={<img src={PostOfficeLogo} alt={`${company} logo`} />}
             position="Full stack mobile developer"
-            period="Mar 2018 - Present"
+            period="Mar 2018 - Jan 2021"
             stack="React Native, Javascript, HTML, CSS, Outsystems."
             details={
                 <>

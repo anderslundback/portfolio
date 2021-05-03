@@ -11,7 +11,7 @@ export default function SkillsText() {
                     I love JavaScript.
                 </label>
                 <br />
-                I've been using it commercially for four years. This includes
+                I've been using it commercially for five years. This includes
                 back-end development using{' '}
                 <label className="is-color-green">node.js</label> and front-end
                 libraries such as <label className="is-color-cyan">React</label>{' '}
