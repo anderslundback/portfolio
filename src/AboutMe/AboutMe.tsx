@@ -6,7 +6,7 @@ export default function AboutMe() {
             <p>
                 I'm a{' '}
                 <label className="is-color-pink">
-                    Senior Software Engineer with 5 years of commercial programming experience,
+                    Lead Front End Engineer with 6 years of commercial programming experience,
                 </label>
                 &nbsp;currently based in London. I’m a highly proficient Javascript / React / React Native developer, interested in standards, efficiency, automated testing and UI/UX.
             </p>
