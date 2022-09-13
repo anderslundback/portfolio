@@ -15,7 +15,7 @@
     "@types/react-router-dom": "5.1.5",
     "@typescript-eslint/parser": "3.7.1",
     "animate.css": "4.1.0",
-    "backstopjs": "5.0.1",
+    "backstopjs": "5.4.4",
     "chart.js": "2.9.3",
     "cypress": "4.11.0",
     "eslint": "^7.2.0",
