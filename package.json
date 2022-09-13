@@ -18,7 +18,7 @@
     "backstopjs": "5.0.1",
     "chart.js": "2.9.3",
     "cypress": "4.11.0",
-    "eslint": "6.6.0",
+    "eslint": "^7.2.0",
     "eslint-config-airbnb-typescript-prettier": "3.1.0",
     "eslint-watch": "7.0.0",
     "jest-junit": "11.1.0",
@@ -29,7 +29,7 @@
     "react-dom": "16.13.1",
     "react-router-dom": "5.2.0",
     "react-router-transition": "2.0.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.4",
     "typescript": "3.9.7",
     "vercel": "19.2.0"
   },

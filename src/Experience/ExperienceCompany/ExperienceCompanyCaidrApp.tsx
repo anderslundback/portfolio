@@ -2,7 +2,7 @@ import React from 'react';
 import ExperienceCompany from './ExperienceCompany';
 import CaidrLogo from './logos/caidr.jpeg';
 
-export default function ExperienceCompanyCaidrApp() {
+export default function ExperienceCompanyCaidrApp(): JSX.Element {
     const company = 'CaidrApp';
     return (
         <ExperienceCompany
@@ -14,13 +14,15 @@ export default function ExperienceCompanyCaidrApp() {
             details={
                 <>
                     <p>
-                        Caidr is a health app for smart self-care.
-                        Created by a team of pharmacists, family doctors, and leading medical experts,
-                        Caidr tailors trusted advice for you. With searchable content, and top self-care products,
+                        Caidr is a health app for smart self-care. Created by a
+                        Created by a team of pharmacists, family doctors, and
+                        leading medical experts, Caidr tailors trusted advice
+                        for you. With searchable content, and top self-care
                         Caidr puts great health in your hands.
                     </p>
                     <p>
-                        I'm mainly responsible for the development of our Android and iOS app, built with React Native.
+                        I'm mainly responsible for the development of our
+                        Android and iOS app, built with React Native.
                     </p>
                 </>
             }

@@ -5,10 +5,12 @@ import ExperienceCompanyHealthUnlockedQA from './ExperienceCompany/ExperienceCom
 import ExperienceCompanyHealthUnlocked from './ExperienceCompany/ExperienceCompanyHealthUnlocked';
 import ExperienceCompanySEGA from './ExperienceCompany/ExperienceCompanySEGA';
 import ExperienceCompanyCaidrApp from './ExperienceCompany/ExperienceCompanyCaidrApp';
+import ExperienceCompanyCaidrAppLead from './ExperienceCompany/ExperienceCompanyCaidrAppLead';
 
-export default function Experience() {
+export default function Experience(): JSX.Element {
     return (
         <div className="companiesWrapper">
+            <ExperienceCompanyCaidrAppLead />
             <ExperienceCompanyCaidrApp />
             <ExperienceCompanyPostOffice />
             <ExperienceCompanyHealthUnlocked />
