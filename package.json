@@ -31,7 +31,7 @@
     "react-router-transition": "2.0.0",
     "react-scripts": "^3.4.4",
     "typescript": "3.9.7",
-    "vercel": "19.2.0"
+    "vercel": "28.15.3"
   },
   "scripts": {
     "start": "PORT=3006 react-scripts start",
