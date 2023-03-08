@@ -17,7 +17,7 @@
     "animate.css": "4.1.0",
     "backstopjs": "5.0.1",
     "chart.js": "2.9.3",
-    "cypress": "4.11.0",
+    "cypress": "4.12.1",
     "eslint": "^7.2.0",
     "eslint-config-airbnb-typescript-prettier": "3.1.0",
     "eslint-watch": "7.0.0",
