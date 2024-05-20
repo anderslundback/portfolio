@@ -2,8 +2,8 @@ import React from 'react';
 import ExperienceCompany from './ExperienceCompany';
 import CaidrLogo from './logos/caidr.jpeg';
 
-export default function ExperienceCompanyCaidrAppLead(): JSX.Element {
-    const company = 'CaidrApp';
+export default function ExperienceCompanyhealthwords.aiLead(): JSX.Element {
+    const company = 'healthwords.ai';
     return (
         <ExperienceCompany
             company={company}

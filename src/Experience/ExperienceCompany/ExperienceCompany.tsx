@@ -1,8 +1,16 @@
 import React from 'react';
 
-// @ts-ignore: TODO: IntrinsicAttributes
+interface ExperienceCompanyProps {
+    company: string;
+    logo: JSX.Element;
+    position: string;
+    period: string;
+    stack: string;
+    details: JSX.Element;
+    achievements?: JSX.Element;
+}
 
-export default function ExperienceCompany({
+const ExperienceCompany: React.FC<ExperienceCompanyProps> = ({
     company,
     logo,
     position,
@@ -10,7 +18,7 @@ export default function ExperienceCompany({
     stack,
     details,
     achievements,
-}: ExperienceCompany) {
+}) => {
     return (
         <div className="ExperienceCompany" data-testid="ExperienceCompany">
             <div className="logoWrapper">{logo}</div>
@@ -46,18 +54,6 @@ export default function ExperienceCompany({
             </div>
         </div>
     );
-}
-
-interface ExperienceCompany {
-    company: string;
-    logo: JSX.Element;
-    position: string;
-    period: string;
-    stack: string;
-    details: JSX.Element;
-    achievements?: JSX.Element | undefined;
-}
-
-ExperienceCompany.defaultProps = {
-    achievements: false,
 };
+
+export default ExperienceCompany;

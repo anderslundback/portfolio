@@ -4,14 +4,14 @@ import ExperienceCompanyPostOffice from './ExperienceCompany/ExperienceCompanyPo
 import ExperienceCompanyHealthUnlockedQA from './ExperienceCompany/ExperienceCompanyHealthUnlockedQA';
 import ExperienceCompanyHealthUnlocked from './ExperienceCompany/ExperienceCompanyHealthUnlocked';
 import ExperienceCompanySEGA from './ExperienceCompany/ExperienceCompanySEGA';
-import ExperienceCompanyCaidrApp from './ExperienceCompany/ExperienceCompanyCaidrApp';
-import ExperienceCompanyCaidrAppLead from './ExperienceCompany/ExperienceCompanyCaidrAppLead';
+import ExperienceCompanyhealthwords.ai from './ExperienceCompany/ExperienceCompanyhealthwords.ai';
+import ExperienceCompanyhealthwords.aiLead from './ExperienceCompany/ExperienceCompanyhealthwords.aiLead';
 
 export default function Experience(): JSX.Element {
     return (
         <div className="companiesWrapper">
-            <ExperienceCompanyCaidrAppLead />
-            <ExperienceCompanyCaidrApp />
+            <ExperienceCompanyhealthwords.aiLead />
+            <ExperienceCompanyhealthwords.ai />
             <ExperienceCompanyPostOffice />
             <ExperienceCompanyHealthUnlocked />
             <ExperienceCompanyHealthUnlockedQA />
