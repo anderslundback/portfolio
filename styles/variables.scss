@@ -1,0 +1,28 @@
+$charade-color: #232530;
+$pink-color: #ff79c6;
+$cyan-color: #8be9fd;
+$green-color: #50fa7b;
+$red-color: #ff5555;
+$yellow-color: #f1fa8c;
+$purple-color: #bd93f9;
+
+$animation-type: ease;
+$animation-duration: .3s;
+
+$header-height: 100px;
+$header-height_mobile: 70px;
+$footer-height: 120px;
+$max-text-width: 900px;
+
+//This is necessary to prevent from having issues on mobile web
+//because of its (potentially) floating address bar
+$available-height: calc(#{var(--vh, 1vh)} - #{$header-height + $footer-height});
+$available-height_mobile: calc(#{var(--vh, 1vh)} - #{$header-height_mobile});
+
+$image-height_mobile: calc(100vw * 0.6);
+$image-height_tablet: calc(100vw * 0.4);
+
+$mobile-width: 650px;
+$tablet-width: 900px;
+$desktop-width: 1200px;
+$desktop-large-width: 1400px;
