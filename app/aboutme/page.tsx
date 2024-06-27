@@ -3,6 +3,7 @@ import React from "react";
 export default function AboutMe() {
   return (
     <div className="is-text" data-testid="AboutMe">
+      <h1>About me</h1>
       <p>
         I&apos;m a{" "}
         <label className="is-color-pink">

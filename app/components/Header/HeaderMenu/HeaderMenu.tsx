@@ -4,6 +4,7 @@ import HeaderMenuNav from "./HeaderMenuNav/HeaderMenuNav";
 import routesList, { Route } from "../../../utils/routesList";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import Button from "@mui/material/Button";
 
 export default function HeaderMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +34,7 @@ function MenuLink({ route: { to, text }, onClick }: MenuLinkProps) {
       className={`link${pathname === "/" ? "is-active" : ""}`}
       onClick={onClick}
     >
-      <p>{text}</p>
+      <Button>{text}</Button>
     </Link>
   );
 }
