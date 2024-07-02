@@ -5,8 +5,8 @@
     .links {
         will-change: transform;
         transition: transform $animation-type $animation-duration;
-        display: grid;
-        position: fixed;
+        // display: grid;
+        // position: fixed;
         right: 0;
         top: 0;
         width: 100%;

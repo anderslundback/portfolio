@@ -31,10 +31,12 @@ function MenuLink({ route: { to, text }, onClick }: MenuLinkProps) {
   return (
     <Link
       href={to}
-      className={`link${pathname === "/" ? "is-active" : ""}`}
+      className={`link mx-2 ${pathname === "/" ? "is-active" : ""}`}
       onClick={onClick}
     >
-      <Button>{text}</Button>
+      <Button variant="contained" className="bg-black text-2xl">
+        {text}
+      </Button>
     </Link>
   );
 }

@@ -1,15 +1,15 @@
 import Home from "../../app/page";
-import AboutMe from "../../app/aboutme/page";
+import About from "../about/page";
 // import Skills from '../../pages/Skills/Skills';
-// import Experience from '../../pages/Experience/Experience';
+import Experience from "../experience/page";
 
 const routesList: Route[] = [
   { id: "home", to: "/", text: "Home", component: Home, isExternal: false },
   {
-    id: "aboutme",
-    to: "/aboutme",
-    text: "About me",
-    component: AboutMe,
+    id: "about",
+    to: "/about",
+    text: "About",
+    component: About,
     isExternal: false,
   },
   //   {
@@ -19,17 +19,17 @@ const routesList: Route[] = [
   //     component: Skills,
   //     isExternal: false,
   //   },
-  //   {
-  //     id: "experience",
-  //     to: "/experience",
-  //     text: "Experience",
-  //     component: Experience,
-  //     isExternal: false,
-  //   },
   {
-    id: "contact-me",
+    id: "experience",
+    to: "/experience",
+    text: "Experience",
+    component: Experience,
+    isExternal: false,
+  },
+  {
+    id: "contact",
     to: "mailto:lundback.anders@gmail.com",
-    text: "Contact me",
+    text: "Contact",
     isExternal: true,
   },
 ];
