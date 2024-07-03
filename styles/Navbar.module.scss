@@ -1,0 +1,49 @@
+// styles/Navbar.module.scss
+
+.navbar {
+    background-color: #aeaaaa; // Adjust as needed
+  }
+  
+  .menuButton {
+    margin-right: 20px;
+  }
+  
+  .title {
+    flex-grow: 1;
+  }
+  
+  .drawer {
+    width: 250px;
+    .MuiList-root {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  .desktopMenu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #cbc8c8; // Adjust as needed
+    padding: 10px;
+  
+    ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+  
+      li {
+        margin: 0 10px;
+      }
+  
+      .link {
+        text-decoration: none;
+        color: inherit;
+  
+        &.is-active {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  

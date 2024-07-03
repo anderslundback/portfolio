@@ -1,12 +1,13 @@
-import React from 'react';
-import HeaderLogo from './HeaderLogo/HeaderLogo';
-import HeaderMenu from './HeaderMenu/HeaderMenu';
+"use client";
+import React from "react";
+import Navbar from "../Navbar/Navbar";
 
-export default function Header() {
-    return (
-        <header className="Header">
-            <HeaderLogo />
-            <HeaderMenu />
-        </header>
-    );
-}
+const Header: React.FC = () => {
+  return (
+    <header className="Header my-5">
+      <Navbar />
+    </header>
+  );
+};
+
+export default Header;

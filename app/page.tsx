@@ -1,13 +1,17 @@
+import { Typography } from "@mui/material";
 import React from "react";
 
-export default function Home() {
-  return (
-    <>
-      <div>
-        <h1 data-testid="Home-title" className="text-3xl">
-          Anders Lundbäck portfolio
-        </h1>
-      </div>
-    </>
-  );
-}
+const Home: React.FC = () => (
+  <>
+    <Typography variant="h1">Anders Lundbäck</Typography>
+    <Typography variant="h6" color="textSecondary">
+      Product Leader | Software Engineer
+    </Typography>
+    <Typography variant="body1">
+      Welcome to my portfolio. Here you can find an intro about me, my
+      professional experience and contact information.
+    </Typography>
+  </>
+);
+
+export default Home;
