@@ -1,21 +1,21 @@
-import React, { useState } from "react";
+import MenuIcon from "@mui/icons-material/Menu";
 import {
   AppBar,
-  Toolbar,
-  IconButton,
-  Typography,
+  Button,
   Drawer,
+  IconButton,
   List,
   ListItem,
+  Toolbar,
+  Typography,
   useMediaQuery,
   useTheme,
-  Button,
 } from "@mui/material";
-import MenuIcon from "@mui/icons-material/Menu";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import React, { useState } from "react";
 import styles from "../../../styles/Navbar.module.scss";
-import routesList, { Route } from "../../utils/routesList"; // Adjust the path as necessary
+import routesList from "../../utils/routesList";
 
 const Navbar: React.FC = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -88,7 +88,6 @@ const Navbar: React.FC = () => {
           </Drawer>
         </>
       ) : (
-        // Render your existing desktop menu here
         <nav className={styles.desktopMenu}>
           <ul>
             {routesList.map((route, index) => (

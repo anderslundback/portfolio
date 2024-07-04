@@ -1,7 +1,8 @@
-// styles/Navbar.module.scss
+@use 'styles/variables' as vars;
 
 .navbar {
-    background-color: #aeaaaa; // Adjust as needed
+    // mobile
+    background-color: vars.$charade-color;
   }
   
   .menuButton {
@@ -23,7 +24,6 @@
   .desktopMenu {
     display: flex;
     justify-content: space-around;
-    background-color: #cbc8c8; // Adjust as needed
     padding: 10px;
   
     ul {

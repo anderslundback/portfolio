@@ -2,6 +2,13 @@ import Home from "../../app/page";
 import About from "../about/page";
 // import Skills from '../../pages/Skills/Skills';
 import Experience from "../experience/page";
+export interface Route {
+  id: string;
+  to: string;
+  isExternal: boolean;
+  text: string;
+  component?: React.FC;
+}
 
 const routesList: Route[] = [
   { id: "home", to: "/", text: "Home", component: Home, isExternal: false },
@@ -33,13 +40,5 @@ const routesList: Route[] = [
     isExternal: true,
   },
 ];
-
-export interface Route {
-  id: string;
-  to: string;
-  isExternal: boolean;
-  text: string;
-  component?: () => React.ReactNode;
-}
 
 export default routesList;

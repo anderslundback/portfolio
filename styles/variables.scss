@@ -1,3 +1,4 @@
+// Define colors
 $charade-color: #232530;
 $pink-color: #ff79c6;
 $cyan-color: #8be9fd;
@@ -6,6 +7,7 @@ $red-color: #ff5555;
 $yellow-color: #f1fa8c;
 $purple-color: #bd93f9;
 
+// Define other variables
 $animation-type: ease;
 $animation-duration: .3s;
 
@@ -14,8 +16,6 @@ $header-height_mobile: 70px;
 $footer-height: 120px;
 $max-text-width: 900px;
 
-//This is necessary to prevent from having issues on mobile web
-//because of its (potentially) floating address bar
 $available-height: calc(#{var(--vh, 1vh)} - #{$header-height + $footer-height});
 $available-height_mobile: calc(#{var(--vh, 1vh)} - #{$header-height_mobile});
 
