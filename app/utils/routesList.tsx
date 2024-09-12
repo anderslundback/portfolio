@@ -1,6 +1,7 @@
 import Home from "../../app/page";
 import About from "../about/page";
 import Experience from "../experience/page";
+import Services from "../services/page";
 export interface Route {
   id: string;
   to: string;
@@ -23,6 +24,13 @@ const routesList: Route[] = [
     to: "/experience",
     text: "Experience",
     component: Experience,
+    isExternal: false,
+  },
+  {
+    id: "services",
+    to: "/services",
+    text: "Services",
+    component: Services,
     isExternal: false,
   },
   {
