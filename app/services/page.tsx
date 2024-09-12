@@ -1,9 +1,9 @@
 "use client";
-import { Typography, Link } from "@mui/material";
+import { Typography } from "@mui/material";
 import React from "react";
 
 const Services: React.FC = () => (
-  <div className="is-text" data-testid="AboutMe">
+  <div className="is-text" data-testid="Services">
     <Typography variant="h1">Services</Typography>
     <Typography paragraph>
       {`I am open for freelance work. Contact me if you need help with your business. I can help you find your product-market fit, optimise your site for search engines and support with web and app development.`}
