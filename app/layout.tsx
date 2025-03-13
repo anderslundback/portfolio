@@ -8,6 +8,7 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import { useMemo } from "react";
 import { jsonLdScript } from "./utils/utils";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header />
         <main className="px-10">{children}</main>
+        <Analytics />
       </body>
     </html>
   );
