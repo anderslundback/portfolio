@@ -1,5 +1,6 @@
 export const SITE_URL = "https://www.anderslundback.com";
 export const CONSULTING_URL = "https://lundbackconsulting.com";
+export const CHESS_URL = "https://better-chess.com";
 
 export const jsonLdScript = (structuredData?: any) => {
   const defaultStructuredData = {
@@ -22,7 +23,7 @@ export const jsonLdScript = (structuredData?: any) => {
           { "@type": "Organization", name: "healthwords.ai" },
           { "@id": `${CONSULTING_URL}/#organization` },
         ],
-        sameAs: ["https://better-chess.com/", CONSULTING_URL],
+        sameAs: [CHESS_URL, CONSULTING_URL],
         knowsAbout: [
           "Chess",
           "Disc golf",
@@ -47,6 +48,14 @@ export const jsonLdScript = (structuredData?: any) => {
         areaServed: "Europe",
         address: { "@type": "PostalAddress", addressCountry: "SE" },
         sameAs: [SITE_URL],
+      },
+      {
+        "@type": "Service",
+        "@id": `${CHESS_URL}/#service`,
+        name: "Better Chess | Online Coaching",
+        serviceType: "Chess coaching",
+        url: CHESS_URL,
+        provider: { "@id": `${SITE_URL}/#person` },
       },
     ],
   };
