@@ -1,5 +1,5 @@
 "use client";
-import { Typography } from "@mui/material";
+import { Typography, Link } from "@mui/material";
 import React from "react";
 
 const Services: React.FC = () => (
@@ -11,7 +11,17 @@ const Services: React.FC = () => (
       {`I’m available for freelance consulting to help your business thrive. Whether you're looking to find your product-market fit, optimize your website for search engines, or need support with web and app development, I can provide the strategic guidance and hands-on expertise you need.`}
     </Typography>
     <Typography paragraph>
-      {`Lundback Product Consulting AB. Registered limited company in Sweden. Organisation number: 559495-3738.`}
+      <Link href="https://lundbackconsulting.com" rel="noopener">
+        Lundback Product Consulting AB
+      </Link>
+      {`. Registered limited company in Sweden. Organisation number: 559495-3738.`}
+    </Typography>
+    <Typography paragraph>
+      {`For engagements and case studies, visit `}
+      <Link href="https://lundbackconsulting.com" rel="noopener">
+        lundbackconsulting.com
+      </Link>
+      {`.`}
     </Typography>
     <Typography variant="h5" component="h2">
       What I Offer:

@@ -1,8 +1,8 @@
 User-agent: *
+Allow: /
 Disallow: /admin/
 Disallow: /private/
 Disallow: /cgi-bin/
 Disallow: /tmp/
 
-User-agent: Googlebot
-Allow: /                 # Allow Googlebot to crawl all content
+Sitemap: https://anderslundback.com/sitemap.xml

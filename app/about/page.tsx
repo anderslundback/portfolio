@@ -28,11 +28,14 @@ const AboutMe: React.FC = () => (
       {`I’m available for freelance consulting to help your business thrive. Whether you're looking to find your product-market fit, optimize your website for search engines, or need support with web and app development, I can provide the strategic guidance and hands-on expertise you need.`}
     </Typography>
     <Typography paragraph>
-      {`Lundback Product Consulting AB. Registered limited company in Sweden. Organisation number: 559495-3738.`}
+      <Link href="https://lundbackconsulting.com" rel="noopener">
+        Lundback Product Consulting AB
+      </Link>
+      {`. Registered limited company in Sweden. Organisation number: 559495-3738.`}
     </Typography>
     <Typography paragraph>
       {`Learn more about `}
-      <Link href="/services" target="_blank" rel="noopener">
+      <Link href="/services">
         my services
       </Link>
       {` and how I can help your business.`}

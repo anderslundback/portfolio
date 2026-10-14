@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material";
+import { Typography, Link } from "@mui/material";
 import React from "react";
 
 const Home: React.FC = () => (
@@ -9,7 +9,11 @@ const Home: React.FC = () => (
     </Typography>
     <Typography variant="body1">
       Welcome to my portfolio. Here you can find an intro about me, my
-      professional experience and contact information.
+      professional experience and contact information. For consulting, visit{" "}
+      <Link href="https://lundbackconsulting.com" rel="noopener">
+        Lundback Product Consulting
+      </Link>
+      .
     </Typography>
   </>
 );
