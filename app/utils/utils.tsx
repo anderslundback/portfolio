@@ -23,7 +23,16 @@ export const jsonLdScript = (structuredData?: any) => {
           { "@id": `${CONSULTING_URL}/#organization` },
         ],
         sameAs: ["https://better-chess.com/", CONSULTING_URL],
-        knowsAbout: ["Chess", "Product", "Tech", "Front end"],
+        knowsAbout: [
+          "Chess",
+          "Disc golf",
+          "Golden retrievers",
+          "Video games",
+          "Film",
+          "Product",
+          "Tech",
+          "Front end",
+        ],
         alumniOf: {
           "@type": "CollegeOrUniversity",
           name: "Malardalen University",

@@ -2,6 +2,7 @@ import Home from "../../app/page";
 import About from "../about/page";
 import Experience from "../experience/page";
 import Services from "../services/page";
+import Interests from "../interests/page";
 export interface Route {
   id: string;
   to: string;
@@ -31,6 +32,13 @@ const routesList: Route[] = [
     to: "/services",
     text: "Services",
     component: Services,
+    isExternal: false,
+  },
+  {
+    id: "interests",
+    to: "/interests",
+    text: "Off the clock",
+    component: Interests,
     isExternal: false,
   },
   {

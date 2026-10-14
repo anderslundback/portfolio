@@ -1,5 +1,7 @@
-import { Typography, Link } from "@mui/material";
+import { Chip, Link, Stack, Typography } from "@mui/material";
+import NextLink from "next/link";
 import React from "react";
+import { interests } from "./interests/data";
 
 const Home: React.FC = () => (
   <>
@@ -15,6 +17,29 @@ const Home: React.FC = () => (
       </Link>
       .
     </Typography>
+    <Typography variant="body1" className="mt-6">
+      Off the clock, I’m happiest with a chess clock, a disc golf bag, a golden
+      retriever, a good game or a great film.
+    </Typography>
+    <Stack
+      direction="row"
+      spacing={1}
+      useFlexGap
+      flexWrap="wrap"
+      className="mt-3"
+      component="nav"
+      aria-label="Interests"
+    >
+      {interests.map((i) => (
+        <Chip
+          key={i.id}
+          component={NextLink}
+          href={`/interests#${i.id}`}
+          label={`${i.emoji} ${i.title}`}
+          clickable
+        />
+      ))}
+    </Stack>
   </>
 );
 
