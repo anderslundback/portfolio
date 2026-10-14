@@ -5,4 +5,4 @@ Disallow: /private/
 Disallow: /cgi-bin/
 Disallow: /tmp/
 
-Sitemap: https://anderslundback.com/sitemap.xml
+Sitemap: https://www.anderslundback.com/sitemap.xml

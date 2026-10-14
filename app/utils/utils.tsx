@@ -1,4 +1,4 @@
-export const SITE_URL = "https://anderslundback.com";
+export const SITE_URL = "https://www.anderslundback.com";
 export const CONSULTING_URL = "https://lundbackconsulting.com";
 
 export const jsonLdScript = (structuredData?: any) => {
